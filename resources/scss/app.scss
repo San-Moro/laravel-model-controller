@@ -1,1 +1,30 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import 'partials/general';
+
+// HEADER
+header {
+    .logo {
+        color: rgb(67, 86, 113);
+    }
+    .menu-header {
+        ul {
+            li {
+                a {
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding-left: 1em;
+                    text-transform: uppercase;
+     
+                    &.hover {
+                        color: rgb(67, 86, 113);
+                        border-bottom: 2px solid rgb(67, 86, 113);
+                    }
+                    &.active {
+                        color: rgb(67, 86, 113);
+                        border-bottom: 2px solid rgb(67, 86, 113);
+                    }
+                }
+            }
+        }
+    }
+}

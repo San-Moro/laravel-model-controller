@@ -2,16 +2,7 @@
 
 @section('content')
     <section class="container">
-        <h1>Movies</h1>
-        <div>
-            <ul>
-                @foreach ($movies as $movie)
-                <li>
-                    {{ $movie->title }}
-                </li>
-                    
-                @endforeach
-            </ul>
-        </div>
+        <h1 class="my-3">Home page</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed illum quidem inventore.</p>
     </section>
 @endsection
